@@ -1,7 +1,7 @@
 <template >
     <div id="Day" >
         <div class="card">
-            <h2 class="Name"><img :src="period.icon" alt="Картинка погоды">{{period.name}}</h2>
+            <h2 class="Name"><img class="picture" :src="period.icon" alt="Картинка погоды">{{period.name}}</h2>
             <h3>Temperature: {{period.temperature}} {{period.temperatureUnit}}</h3>
             <h3>{{period.detailedForecast}}</h3>
         </div>
